@@ -1,0 +1,174 @@
+{
+  "name": "voc-curriculum-reform",
+  "version": "4.0.0",
+  "description": "A seven-role vocational curriculum reform team covering industry job research, BAG task extraction, six-table competency modelling, talent-training programme design, course standards, six-step lesson plans, interactive student courseware with simulation training, teaching-award portfolios and house-style Word/PDF delivery.",
+  "author": {
+    "name": "李顺强（重庆现代制造职业学院·工业互联网应用专业）",
+    "email": "curriculum-reform@local"
+  },
+  "agents": [
+    "./agents/voc-curriculum-reform-team-lead.md",
+    "./agents/job-task-analyst.md",
+    "./agents/curriculum-architect.md",
+    "./agents/course-standard-designer.md",
+    "./agents/quality-award-strategist.md",
+    "./agents/format-doc-engineer.md",
+    "./agents/interactive-courseware-engineer.md"
+  ],
+  "skills": [
+    "./skills/voc-curriculum-reform"
+  ],
+  "expertType": "team",
+  "agentName": "voc-curriculum-reform-team-lead",
+  "teamInfo": {
+    "leadAgent": "voc-curriculum-reform-team-lead",
+    "memberAgents": [
+      "job-task-analyst",
+      "curriculum-architect",
+      "course-standard-designer",
+      "quality-award-strategist",
+      "format-doc-engineer",
+      "interactive-courseware-engineer"
+    ]
+  },
+  "displayName": {
+    "en": "Vocational Curriculum Reform Team",
+    "zh": "高职课程改革专家团"
+  },
+  "profession": {
+    "en": "Vocational Curriculum Reform Team",
+    "zh": "高职课程改革专家团"
+  },
+  "displayDescription": {
+    "en": "Seven specialists cover job research, six-table modelling, talent-training programme design, course standards, 6x4 lesson plans, interactive student courseware with simulated drills, award portfolios and house-style Word/PDF delivery under one shared set of rules.",
+    "zh": "从岗位调研、六表建模到人培编排、课标教案、学生互动课件与仿真实训，七人分工一套口径，交付成套材料。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "我要修订工业互联网应用专业的人才培养方案，从岗位调研到六表、课标、教案全流程帮我编排。",
+    "en": "I need to revise the talent-training programme for our Industrial Internet programme, end to end from job research to the six tables, course standards and lesson plans."
+  },
+  "plugin": "voc-curriculum-reform",
+  "tags": [
+    {
+      "en": "Curriculum Reform",
+      "zh": "课程改革"
+    },
+    {
+      "en": "Talent Programme Design",
+      "zh": "人培方案编排"
+    },
+    {
+      "en": "Teaching Award Portfolio",
+      "zh": "教学成果奖凝练"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I need to revise the talent-training programme for our Industrial Internet programme, end to end from job research to the six tables, course standards and lesson plans.",
+      "zh": "我要修订工业互联网应用专业的人才培养方案，从岗位调研到六表、课标、教案全流程帮我编排。"
+    },
+    {
+      "zh": "按学院格式做一整套课改材料包：六表、人培方案、四门课标加教案，最后直接出 Word 和 PDF 交件。",
+      "en": "Build a full curriculum-reform package in our house style: six tables, talent-training programme, four course standards and lesson plans, then deliver final Word and PDF files."
+    },
+    {
+      "zh": "把 LF1—LF4 全部 11 个学习情境做成两件套：学生互动学习模块（预习＋游戏闯关＋仿真实训＋检测）和教师授课包，学生能自学、老师能直接上课。",
+      "en": "Build both pieces for all 11 learning situations of LF1-LF4: student interactive modules (preview, gamified levels, simulated drills, quizzes) and teacher lesson packages."
+    }
+  ],
+  "members": [
+    {
+      "id": "voc-curriculum-reform-team-lead",
+      "displayName": {
+        "en": "Jian",
+        "zh": "简立德"
+      },
+      "profession": {
+        "en": "Programme Development Director",
+        "zh": "专业建设总监"
+      },
+      "avatar": "avatars/voc-curriculum-reform-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "job-task-analyst",
+      "displayName": {
+        "en": "Lu",
+        "zh": "路知行"
+      },
+      "profession": {
+        "en": "Job & Task Analyst",
+        "zh": "岗位与任务分析师"
+      },
+      "avatar": "avatars/job-task-analyst.png",
+      "role": "member"
+    },
+    {
+      "id": "curriculum-architect",
+      "displayName": {
+        "en": "Ke",
+        "zh": "柯维纲"
+      },
+      "profession": {
+        "en": "Curriculum System Architect",
+        "zh": "课程体系架构师"
+      },
+      "avatar": "avatars/curriculum-architect.png",
+      "role": "member"
+    },
+    {
+      "id": "course-standard-designer",
+      "displayName": {
+        "en": "Wen",
+        "zh": "文立标"
+      },
+      "profession": {
+        "en": "Course Standard & Lesson Designer",
+        "zh": "课程标准与教案设计师"
+      },
+      "avatar": "avatars/course-standard-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "quality-award-strategist",
+      "displayName": {
+        "en": "Shi",
+        "zh": "石可琢"
+      },
+      "profession": {
+        "en": "Quality Review & Award Strategist",
+        "zh": "质量审核与成果凝练师"
+      },
+      "avatar": "avatars/quality-award-strategist.png",
+      "role": "member"
+    },
+    {
+      "id": "format-doc-engineer",
+      "displayName": {
+        "en": "Fang",
+        "zh": "方有格"
+      },
+      "profession": {
+        "en": "Format & Documentation Engineer",
+        "zh": "体例与文档工程师"
+      },
+      "avatar": "avatars/format-doc-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "interactive-courseware-engineer",
+      "displayName": {
+        "en": "He",
+        "zh": "贺游学"
+      },
+      "profession": {
+        "en": "Interactive Courseware & Simulation Training Engineer",
+        "zh": "互动课件与仿真实训工程师"
+      },
+      "avatar": "avatars/interactive-courseware-engineer.png",
+      "role": "member"
+    }
+  ]
+}
