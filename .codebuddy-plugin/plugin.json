@@ -4,7 +4,7 @@
   "description": "A seven-role vocational curriculum reform team covering industry job research, BAG task extraction, six-table competency modelling, talent-training programme design, course standards, six-step lesson plans, interactive student courseware with simulation training, teaching-award portfolios and house-style Word/PDF delivery.",
   "author": {
     "name": "宫宇伟",
-    "email": "javanetgognzheng@aliyun.com"
+    "email": "javanetgongzheng@aliyun.com"
   },
   "agents": [
     "./agents/voc-curriculum-reform-team-lead.md",
